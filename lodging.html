@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accommodation - GONG ESCAPE</title>
+    <link rel="stylesheet" href="css/lodging.css">
+    <link href="https://fonts.googleapis.com/css2?family=Now:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <a href="index.html" class="logo-link">
+                <span class="logo-text">Explore Illawarra</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url(img/hotel.png);">
+            <div class="container">
+                <h1>Accommodation in Wollongong</h1>
+                <p>Discover the best places to stay in and around Wollongong!</p>
+            </div>
+        </section>
+
+        <section class="lodging-list">
+            <div class="container">
+                <h2>Recommended Accommodation</h2>
+                <div id="map" style="display: none;"></div> <!-- 地圖容器，隱藏以便使用API -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Wollongong 旅遊平台</p>
+        </div>
+    </footer>
+    <script src="js/config.js"></script>
+    <script src="js/lodging.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GONG ESCAPE</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Now:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <section class="hero">
+            <div class="video-background">
+                <video autoplay loop muted playsinline>
+                    <source src="img/landing1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="logo-container">
+                <img src="img/logo.png" alt="Logo" class="logo">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">Explore Illawarra</span>
+                </a>
+            </div>
+            <div class="container">
+                <h1>WOLLON<span style="color: #b4becb;">GO</span>NG</h1>
+                <h1 style="font-size: 46px;">COASTAL <span style="color: #b4becb;">ESCAPE</span></h1>
+            </div>
+        </section>
+
+        <section class="hero1">
+            <div class="hero-left">
+                <h1>Weather <strong>Now</strong></h1>
+                <div class="weather-toggle">
+                    <button id="currentWeatherBtn" class="active">Current Weather</button>
+                    <button id="forecastWeatherBtn">7-Day Forecast</button>
+                </div>
+                <div id="currentWeatherInfo" class="weather-info active"></div>
+                <div id="weatherAlertInfo" class="weather-info"></div>
+                <div id="weatherForecastInfo" class="weather-info"></div>
+            </div>
+            <div class="hero-right">
+                <img src="img/7.png" alt="Wollongong Image 1">
+                <img src="img/8.png" alt="Wollongong Image 2">
+            </div>
+        </section>
+
+        <section id="packages" class="packages-section">
+            <div class="container">
+                <h1>What's on?</h1>
+                <div class="events-container">
+                    <div class="package-card">
+                        <!-- This will be filled by JS -->
+                    </div>
+                    <div class="explore-box">
+                        <a href="events.html"><button class="explore-button">EXPLORE</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section class="restaurant-section" style="background-image: url(img/restaurant.png);">
+            <div class="container">
+                <h2>Discover the Best <span style="color: #b4becb;">Restaurants</span></h2>
+                <p>Find out the top dining experiences around Wollongong!</p>
+                <a href="restaurants.html" class="restaurant-button">Explore Restaurants</a>
+            </div>
+        </section>
+
+        <section id="transportation" class="transportation-section">
+            <div class="container">
+                <div class="transportation-content">
+                    <h2>How to Get Here</h2>
+                    <p>Discover the easiest ways to reach Wollongong and start your coastal escape adventure!</p>
+                    <a href="transportation.html" class="transportation-button">Plan Your Trip</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="lodging-section" style="background-image: url(img/hotel.png);">
+            <div class="container">
+                <h2>Accommodation</h2>
+                <p>Find the best places to stay in Wollongong!</p>
+                <a href="lodging.html" class="restaurant-button">Explore Accommodation</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Wollongong Escape</p>
+        </div>
+    </footer>
+    <script src="js/config.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
